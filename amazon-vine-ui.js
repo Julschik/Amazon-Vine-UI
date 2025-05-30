@@ -13,14 +13,8 @@
       return;
     }
 
-    // Beispiel: UI-Element einfügen
-    const infoBox = document.createElement("div");
-    infoBox.className = "bg-yellow-100 border border-yellow-400 text-yellow-800 px-4 py-3 rounded mt-4";
-    infoBox.innerHTML = `
-      <strong class="font-bold">Hinweis:</strong>
-      <span class="block sm:inline">Diese Seite wurde durch das Amazon Vine UI Script optimiert.</span>
-    `;
-    vineSection.prepend(infoBox);
+    // Hier UI Elemente einfügen. Jede Funktion soll ein eigenes JS haben und hier verlinkt werden
+
 
     // Optional: Weitere DOM-Optimierungen, Filter, UX-Verbesserungen etc.
     console.log("✅ Vine UI wurde angepasst.");
